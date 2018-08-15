@@ -1,0 +1,8 @@
+applications:
+- path: .
+  memory: 1024M
+  instances: 1
+  domain: mybluemix.net
+  name: api-demo-test
+  host: api-demo-test
+  disk_quota: 1024M

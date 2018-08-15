@@ -1,0 +1,21 @@
+{
+  "name": "rest-service-demo",
+  "version": "0.1.1",
+  "description": "Rest api service",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mario Bocanegra Deza <datascientistperu@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "curl-cmd": "0.0.1",
+    "express": "^4.15.4",
+    "mongoose": "^5.0.16"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
